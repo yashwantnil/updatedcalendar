@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2025 at 09:28 PM
+-- Generation Time: Apr 08, 2025 at 05:41 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -60,7 +60,13 @@ INSERT INTO `events` (`id`, `title`, `calllink`, `start_datetime`, `end_datetime
 (13, 'Yo yoI', '', '2025-03-18 00:00:00', '2025-03-18 01:00:00', '2025-04-04', 'UTC', 'sp@is4sb.com'),
 (14, 'Yamen and Cat Sarasota trip', '', '2025-03-22 11:30:00', '2025-03-22 12:30:00', '2025-04-04', 'UTC', 'sp@is4sb.com'),
 (15, 'Test Ical Event', '', '2025-04-07 14:00:00', '2025-04-07 14:30:00', '2025-04-04', 'UTC', 'sp@is4sb.com'),
-(16, 'Ics test 2', '', '2025-04-10 12:00:00', '2025-04-10 13:00:00', '2025-04-04', 'UTC', 'sp@is4sb.com');
+(16, 'Ics test 2', '', '2025-04-10 12:00:00', '2025-04-10 13:00:00', '2025-04-04', 'UTC', 'sp@is4sb.com'),
+(17, 'Ics google.com', '', '2025-04-26 08:00:00', '2025-04-26 09:00:00', '2025-04-08', 'America/Chicago', 'sp@is4sb.com'),
+(18, 'Outlook Calendar Invite', '', '2025-04-25 20:30:00', '2025-04-25 21:00:00', '2025-04-08', 'UTC', 'sp@is4sb.com'),
+(19, 'Outlook Calendar Invite', '', '2025-04-28 20:30:00', '2025-04-28 21:00:00', '2025-04-08', 'UTC', 'sp@is4sb.com'),
+(20, 'Outlook Calendar Invite', '', '2025-04-29 20:30:00', '2025-04-29 21:00:00', '2025-04-08', 'UTC', 'sp@is4sb.com'),
+(21, 'Outlook Calendar Invite', '', '2025-04-30 20:30:00', '2025-04-30 21:00:00', '2025-04-08', 'UTC', 'sp@is4sb.com'),
+(22, 'Outlook Calendar Invite', '', '2025-05-01 20:30:00', '2025-05-01 21:00:00', '2025-04-08', 'UTC', 'sp@is4sb.com');
 
 --
 -- Indexes for dumped tables
@@ -80,7 +86,7 @@ ALTER TABLE `events`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
