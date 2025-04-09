@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20250307T133000
+DTEND;TZID=Asia/Kolkata:20250307T143000
+DTSTAMP:20250306T122032Z
+ORGANIZER;CN=Nilesh Bangar:mailto:yashwantnil@gmail.com
+UID:536qp2llkbcen2c9rb5lkmpq1o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sp@is4sb.com;X-NUM-GUESTS=0:mailto:sp@is4sb.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Nilesh Bangar;X-NUM-GUESTS=0:mailto:yashwantnil@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rtb-yfir-kjt
+X-MICROSOFT-CDO-OWNERAPPTID:694792267
+CREATED:20250304T111220Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/rt
+ b-yfir-kjt\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20250306T122030Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:test 5
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+ATTENDEE:mailto:sp@is4sb.com
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
